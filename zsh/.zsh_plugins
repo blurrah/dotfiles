@@ -1,0 +1,8 @@
+# ZSH plugins used for antibody
+
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-completions
+
+# Spaceship theme
+denysdovhan/spaceship-prompt

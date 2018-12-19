@@ -1,0 +1,68 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "SFMono-Regular",
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.venvPath": "/Users/boris/.pyenv/versions/",
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.pyTestArgs": [
+        "--reuse-db",
+        "--no-migrations"
+    ],
+    "workbench.colorTheme": "Ayu Mirage",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terraform.formatOnSave": true,
+    "standard.options": {
+        "parser": "babel-eslint"
+    },
+    "editor.rulers": [80,100],
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/bower_components": true
+    },
+    "workbench.sideBar.location": "left",
+    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 0,
+    "editor.renderIndentGuides": true,
+    "javascript.validate.enable": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "files.associations": {
+        "*.tf": "terraform"
+    },
+    "[terraform]": {
+        "editor.formatOnSave": true
+    },
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true
+}

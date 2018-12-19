@@ -1,0 +1,11 @@
+[user]
+    name = Boris Besemer
+    email = borisbesemer@gmail.com
+[branch]
+    autoSetupRebase = always
+[rebase]
+    autoStash = true
+[pull]
+    rebase = true
+[github]
+    user = blurrah
