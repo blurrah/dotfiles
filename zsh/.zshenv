@@ -6,6 +6,10 @@
 # Enable case sensitivity in auto completion
 CASE_SENSITIVE="true"
 
+# Spaceship settings
+SPACESHIP_PACKAGE_SHOW=false
+SPACESHIP_RUBY_SHOW=false
+
 # Yarn bin path
 export PATH="$PATH:`yarn global bin`"
 
@@ -28,3 +32,9 @@ export PIP_REQUIRE_VIRTUALENV=true
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+# Enable rbenv
+eval "$(rbenv init -)"
+
+# Add GOROOT
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
